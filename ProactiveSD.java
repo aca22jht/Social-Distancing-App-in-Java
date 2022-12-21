@@ -323,7 +323,7 @@ class ProactiveSD {
                         System.out.println("Welcome to Radius at UNMC, please follow the proper protocols!");
                     }
                     else if(decision.equals("no") || decision.equals("No")){
-                        System.out.println("Which building would you like to enter?\n Choice 1: Library UNMC\n Choice 2: Core UNMC\n Choice 3: Cafeteria UNMC\n Choice 4: Radius UNMC\n Choice 5: Nexus UNMC");
+                        System.out.println("Which building would you like to enter?\n Choice 1: Library\n Choice 2: Core\n Choice 3: Cafeteria\n Choice 4: Radius\n Choice 5: Nexus");
 
                         System.out.println("Enter a building choice: ");
 
@@ -394,7 +394,7 @@ class ProactiveSD {
                         System.out.println("Welcome to the Nexus at UNMC, please follow the proper protocols!");
                     }
                     else if(decision.equals("no") || decision.equals("No")){
-                        System.out.println("Which building would you like to enter?\n Choice 1: Library UNMC\n Choice 2: Core UNMC\n Choice 3: Cafeteria UNMC\n Choice 4: Radius UNMC\n Choice 5: Nexus UNMC");
+                        System.out.println("Which building would you like to enter?\n Choice 1: Library\n Choice 2: Core\n Choice 3: Cafeteria\n Choice 4: Radius\n Choice 5: Nexus");
 
                         System.out.println("Enter a building choice: ");
 
