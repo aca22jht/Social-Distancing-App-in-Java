@@ -258,7 +258,7 @@ class ProactiveSD {
                              String choice2 = myPlace.nextLine();
                              System.out.println("Choice Entered: " + choice2);
 
-                             System.out.println("Welcome to the " + choice2 + "! Please follow the proper SOPs!");
+                             System.out.println("Welcome to the " + choice2 + "! Please follow the proper protocols!");
                          }
                          else{
                              System.out.println("Invalid input!");
