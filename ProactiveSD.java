@@ -1,4 +1,4 @@
-//Jasmine Tay Hui Ping
+//Done by: Jasmine Hui Ping Tay
 
 /* Personal Project on developing a social distancing app */
 package com.company;
