@@ -138,7 +138,7 @@ class ProactiveSD {
                 //people = 50; //To test for the "exceeded capacity" part please remove the "//" from the "people = 50".
                 people = (int) Math.ceil(Math.random());
                 if (people >= 1 && people < cap1){
-                    System.out.println("Welcome to the Library, please follow the proper SOPs!\n");
+                    System.out.println("Welcome to the Library, please follow the proper protocols!\n");
 
                     Scanner distance = new Scanner(System.in);
                     System.out.println("Input the distance from your neighbouring people \n" +
@@ -177,7 +177,7 @@ class ProactiveSD {
                     String decision = choice1.nextLine();
 
                     if(decision.equals("yes") || decision.equals("Yes")){
-                        System.out.println("Welcome to the Core, please follow the proper SOPs!");
+                        System.out.println("Welcome to the Core, please follow the proper protocols!");
                     }
                     else if(decision.equals("no") || decision.equals("No")){
                         System.out.println("Which building would you like to enter?\n Choice 1: Library\n Choice 2: Core\n Choice 3: Cafeteria\n Choice 4: Radius\n Choice 5: Nexus");
@@ -209,7 +209,7 @@ class ProactiveSD {
                      //people = 100; ////To test for the "exceeded capacity" part please remove the "//" from the "people = 100"
                      people = (int) Math.ceil(Math.random());
                      if (people >= 1 && people < location1.capacity) {
-                         System.out.println("Welcome to the Cafeteria, please follow the proper SOPs!\n");
+                         System.out.println("Welcome to the Cafeteria, please follow the proper protocols!\n");
 
                          Scanner distance = new Scanner(System.in);
                          System.out.println("Input the distance from your neighbouring people \n" +
@@ -248,7 +248,7 @@ class ProactiveSD {
                          String decision = choice1.nextLine();
 
                          if(decision.equals("yes") || decision.equals("Yes")){
-                             System.out.println("Welcome to the Cafeteria, please follow the proper SOPs!");
+                             System.out.println("Welcome to the Cafeteria, please follow the proper protocols!");
                          }
                          else if(decision.equals("no") || decision.equals("No")){
                              System.out.println("Which building would you like to enter?\n Choice 1: Library\n Choice 2: Core\n Choice 3: Cafeteria\n Choice 4: Radius\n Choice 5: Nexus");
@@ -281,7 +281,7 @@ class ProactiveSD {
 
                 people = (int) Math.ceil(Math.random());
                 if (people >= 1 && people < cap3) {
-                    System.out.println("Welcome to Radius at UNMC, please follow the proper SOPs!\n");
+                    System.out.println("Welcome to Radius at UNMC, please follow the proper protocols!\n");
 
                     Scanner distance = new Scanner(System.in);
                     System.out.println("Input the distance from your neighbouring people \n" +
@@ -320,7 +320,7 @@ class ProactiveSD {
                     String decision = choice1.nextLine();
 
                     if(decision.equals("yes") || decision.equals("Yes")){
-                        System.out.println("Welcome to Radius at UNMC, please follow the proper SOPs!");
+                        System.out.println("Welcome to Radius at UNMC, please follow the proper protocols!");
                     }
                     else if(decision.equals("no") || decision.equals("No")){
                         System.out.println("Which building would you like to enter?\n Choice 1: Library UNMC\n Choice 2: Core UNMC\n Choice 3: Cafeteria UNMC\n Choice 4: Radius UNMC\n Choice 5: Nexus UNMC");
@@ -330,7 +330,7 @@ class ProactiveSD {
                         String choice2 = myPlace.nextLine();
                         System.out.println("Choice Entered: " + choice2);
 
-                        System.out.println("Welcome to the " + choice2 + "! Please follow the proper SOPs!");
+                        System.out.println("Welcome to the " + choice2 + "! Please follow the proper protocols!");
                     }
                     else{
                         System.out.println("Invalid input!");
@@ -352,7 +352,7 @@ class ProactiveSD {
                 //people = 35; //To test for the "exceeded capacity" part please remove the "//" from the "people = 35"
                 people = (int) Math.ceil(Math.random());
                 if (people >= 1 && people < location1.capacity) {
-                    System.out.println("Welcome to Nexus at UNMC, please follow the proper SOPs!\n");
+                    System.out.println("Welcome to Nexus at UNMC, please follow the proper protocols!\n");
 
                     Scanner distance = new Scanner(System.in);
                     System.out.println("Input the distance from your neighbouring people \n" +
@@ -391,7 +391,7 @@ class ProactiveSD {
                     String decision = choice1.nextLine();
 
                     if(decision.equals("yes") || decision.equals("Yes")){
-                        System.out.println("Welcome to the Nexus at UNMC, please follow the proper SOPs!");
+                        System.out.println("Welcome to the Nexus at UNMC, please follow the proper protocols!");
                     }
                     else if(decision.equals("no") || decision.equals("No")){
                         System.out.println("Which building would you like to enter?\n Choice 1: Library UNMC\n Choice 2: Core UNMC\n Choice 3: Cafeteria UNMC\n Choice 4: Radius UNMC\n Choice 5: Nexus UNMC");
@@ -401,7 +401,7 @@ class ProactiveSD {
                         String choice2 = myPlace.nextLine();
                         System.out.println("Choice Entered: " + choice2);
 
-                        System.out.println("Welcome to the " + choice2 + "! Please follow the proper SOPs!");
+                        System.out.println("Welcome to the " + choice2 + "! Please follow the proper protocols!");
                     }
                     else{
                         System.out.println("Invalid input!");
