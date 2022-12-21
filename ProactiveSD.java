@@ -46,7 +46,7 @@ class ProactiveSD {
 
         Scanner myPlace = new Scanner(System.in);
         System.out.println("Which building would you like to enter?\n Choice 1: Library\n Choice 2: Core\n Choice 3: Cafeteria\n Choice 4: Radius\n Choice 5: Nexus\n");
-        /*NOTE: Please enter the choice in accordance with what is displayed on the menu (e.g: Library).*/
+        /* NOTE: Please enter the choice in accordance with what is displayed on the menu (e.g: Library). */
         System.out.println("Enter a building choice: ");
 
         String place = myPlace.nextLine();
