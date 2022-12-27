@@ -1,4 +1,4 @@
-//Done by: Jasmine Hui Ping Tay
+//Done by: JASMINE HUI PING TAY
 
 /* Personal Project on developing a social distancing app */
 package com.company;
@@ -22,7 +22,7 @@ class SocialBubble extends ProactiveSD{ //Requirement: ProactiveSD inherits Soci
         System.out.println("Status: Casual Contact");
     }
     public static void PersonName() {
-        System.out.println("Name: Jasmine Tay Hui Ping");
+        System.out.println("Name: Jasmine Hui Ping Tay");
     }
     public static void PersonID() {
         System.out.println("20297482");
